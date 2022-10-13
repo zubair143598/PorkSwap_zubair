@@ -27,7 +27,7 @@ const Cards1 = () => {
             <div className="card mb-3 border-0 mt-5 " style={{ width: "100%" }}>
               <div className="card-body  ">
                 <img
-                  src="./Assists/f1.svg"
+                  src="./Assists/f2.svg"
                   className="card-img-top cardImg"
                   alt="..."
                 />
@@ -45,7 +45,7 @@ const Cards1 = () => {
             >
               <div className="card-body">
                 <img
-                  src="./Assists/f1.svg"
+                  src="./Assists/f3.svg"
                   className="card-img-top cardImg"
                   alt="..."
                 />
@@ -60,7 +60,7 @@ const Cards1 = () => {
             <div className="card border-0 mb-3" style={{ width: "100%" }}>
               <div className="card-body">
                 <img
-                  src="./Assists/f1.svg"
+                  src="./Assists/f6.svg"
                   className="card-img-top cardImg"
                   alt="..."
                 />
@@ -78,7 +78,7 @@ const Cards1 = () => {
             >
               <div className="card-body">
                 <img
-                  src="./Assists/f1.svg"
+                  src="./Assists/f4.svg"
                   className="card-img-top cardImg"
                   alt="..."
                 />
@@ -93,7 +93,7 @@ const Cards1 = () => {
             <div className="card border-0 " style={{ width: "100%" }}>
               <div className="card-body">
                 <img
-                  src="./Assists/f1.svg"
+                  src="./Assists/f6.svg"
                   className="card-img-top cardImg"
                   alt="..."
                 />

@@ -92,17 +92,27 @@ body
 //youtub video start
 .ytvideo
 {
+  background-image: url(https://porkswap.finance/assets/images/bgs/bg.png);
   .ytvid
   {
     margin-top: 40px;
     width: 90%;
     height: 50rem;
+    margin-bottom: 40px;
   }
 }
 //end
 
 
 //token start
+@media screen and (max-width:600px) 
+{
+ .token .back
+  {
+  background-image:none ;
+  }
+}
+
 .token
 {
   h1{
@@ -116,6 +126,7 @@ body
   background-position: center;
   background-size: 740px;
   margin-bottom: 11rem;
+  padding-bottom: 20px;
   // height: 700px;
   .public
   {
@@ -180,6 +191,8 @@ body
 //comparsion started
 .comparsion
 {
+  background-image: url(https://porkswap.finance/assets/images/bgs/bg.png);
+  padding-bottom: 90px;
   .head{
     width: 250px;
   }
@@ -218,6 +231,7 @@ body
   .gov
   {
     width: 90%;
+    margin-bottom: 5rem;
   }
   
 }
@@ -230,14 +244,13 @@ body
   padding: 1rem;
   margin-bottom: 2rem;
   background-color: white;
+
 }
-.faqstitle
-{
-  margin-top: 10rem;
-}
+
 .faqs
 {
   background-image: url(./Media/bg3.png);
+  padding-top: 60px;
 }
 //Faqs end
 
