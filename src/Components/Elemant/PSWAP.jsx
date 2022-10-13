@@ -11,7 +11,7 @@ const PSWAP = () => {
         </div>
         <div className="row">
           <div className="col-md-4 ">
-            <div className="card border-0 p-4" style={{ width: "80%" }}>
+            <div className="card border-0 mb-4 p-4" style={{ width: "80%" }}>
               <div className="card-body">
                 <img
                   src="./Assists/u1.png"
@@ -27,7 +27,7 @@ const PSWAP = () => {
           </div>
 
           <div className="col-md-4 ">
-            <div className="card border-0 p-4 " style={{ width: "80%" }}>
+            <div className="card border-0 p-4 mb-4" style={{ width: "80%" }}>
               <div className="card-body">
                 <img
                   src="./Assists/u1.png"
@@ -44,7 +44,7 @@ const PSWAP = () => {
           </div>
 
           <div className="col-md-4">
-            <div className="card border-0 p-4" style={{ width: "80%" }}>
+            <div className="card border-0 mb-4 p-4" style={{ width: "80%" }}>
               <div className="card-body">
                 <img
                   src="./Assists/u1.png"

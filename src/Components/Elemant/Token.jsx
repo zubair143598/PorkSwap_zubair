@@ -25,7 +25,7 @@ const Token = () => {
           <p className="fs-5 fw-bolder ">Team - locked</p>
          </div>
             <div className="col-md-3"></div>
-            <div className="row back">
+            <div className="row">
             <div className="col-md-2"></div>
                 <div className="col-md-2 ">
                 <h1 className="fw-bolder">10%</h1>
