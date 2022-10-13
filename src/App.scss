@@ -43,6 +43,11 @@ body
   {
     margin-top: 10rem  
   }
+  .btn1
+  {
+
+    height: 50px;
+  }
   .btn2
   {
     width: 30%;
@@ -89,8 +94,8 @@ body
   .ytvid
   {
     margin-top: 40px;
-    width: 80%;
-    height: 30rem;
+    width: 90%;
+    height: 50rem;
   }
 }
 //end
@@ -184,4 +189,58 @@ body
   .rd{
     color: red;
   }
+  .gov
+  {
+    width: 90%;
+  }
+  
+}
+//roadmap end
+
+
+//faqs start
+
+.styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background-color: white;
+}
+.faqstitle
+{
+  margin-top: 10rem;
+}
+.faqs
+{
+  background-image: url(./Media/bg3.png);
+}
+//Faqs end
+
+
+//footer
+.footer
+{
+  background-color: #12436B;
+  .img1
+  {
+    margin-top: 5rem;
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+
+  .icon
+  {
+    margin-top: 5rem !important;
+    color: white;
+    margin-bottom: 1rem !important;
+  }
+  .email
+  {
+    text-decoration: none;
+    color: white;
+  }
+  .hr
+  {
+    color: white;
+  }
+
 }

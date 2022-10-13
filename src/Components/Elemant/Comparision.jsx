@@ -1,5 +1,6 @@
 import React from "react";
-import {BsCheckLg} from "react-icons/bs"
+import {BsCheckLg} from "react-icons/bs";
+import {ImCross} from "react-icons/im"
 
 const Comparision = () => {
   return (
@@ -50,8 +51,8 @@ const Comparision = () => {
                   <th className="head">
                     <span> Futures Trading </span>
                   </th>
-                  <td><BsCheckLg className="cred" size={30} /></td>
-                  <td><BsCheckLg className="cred" size={30} /></td>
+                  <td><ImCross className="cred" size={30} /></td>
+                  <td><ImCross className="cred" size={30} /></td>
                   <td><BsCheckLg className="checkmark" size={30} /></td>
                 </tr>
                 <tr>
@@ -66,8 +67,8 @@ const Comparision = () => {
                   <th className="head">
                     <span> Leveraged Trading</span>
                   </th>
-                  <td><BsCheckLg className="cred" size={30} /></td>
-                  <td><BsCheckLg className="cred" size={30} /></td>
+                  <td><ImCross className="cred" size={30} /></td>
+                  <td><ImCross className="cred" size={30} /></td>
                   <td><BsCheckLg className="checkmark" size={30} /></td>
                 </tr>
                 <tr>
@@ -90,8 +91,8 @@ const Comparision = () => {
                   <th className="head">
                     <span> Deflationary </span>
                   </th>
-                  <td><BsCheckLg className="cred" size={30} /></td>
-                  <td><BsCheckLg className="cred" size={30} /></td>
+                  <td><ImCross className="cred" size={30} /></td>
+                  <td><ImCross className="cred" size={30} /></td>
                   <td><BsCheckLg className="checkmark" size={30} /></td>
                 </tr>
                 <tr>
@@ -99,7 +100,7 @@ const Comparision = () => {
                     <span> Fixed Supply </span>
                   </th>
                   <td><BsCheckLg className="checkmark" size={30} /></td>
-                  <td><BsCheckLg className="cred" size={30} /></td>
+                  <td><ImCross className="cred" size={30} /></td>
                   <td><BsCheckLg className="checkmark" size={30} /></td>
                 </tr>
               </tbody>

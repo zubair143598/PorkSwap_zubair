@@ -6,6 +6,8 @@ import PlatForm from '../Components/Elemant/PlatForm'
 import PSWAP from '../Components/Elemant/PSWAP'
 import Roadmap from '../Components/Elemant/Roadmap'
 import YTVideo from '../Components/Elemant/YTVideo'
+import FAQs from '../Components/Utils/FAQs'
+
 
 
 const Home = () => {
@@ -18,6 +20,7 @@ const Home = () => {
     <PSWAP/>
     <Comparision/>
     <Roadmap/>
+    <FAQs/>
     </>
   )
 }
