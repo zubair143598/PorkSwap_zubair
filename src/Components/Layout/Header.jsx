@@ -6,7 +6,7 @@ const Header = () => {
     <nav className="navbar header  sticky-top navbar-expand-lg bg-light">
     <div className="container">
       <a className=" nav-link active" aria-current="page" href="#">
-        <img src="./Assists/headerLogo.png  " alt="" className="logo p-4" />
+        <img src="./Assists/headerLogo.png  " alt="" className="logo p-1 rounded  border" />
       </a>
 
       <button

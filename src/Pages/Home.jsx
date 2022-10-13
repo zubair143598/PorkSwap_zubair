@@ -5,6 +5,7 @@ import Hero from '../Components/Elemant/Hero'
 import PlatForm from '../Components/Elemant/PlatForm'
 import PSWAP from '../Components/Elemant/PSWAP'
 import Roadmap from '../Components/Elemant/Roadmap'
+import Token from '../Components/Elemant/Token'
 import YTVideo from '../Components/Elemant/YTVideo'
 import FAQs from '../Components/Utils/FAQs'
 
@@ -16,6 +17,7 @@ const Home = () => {
     <Hero/>
     <Cards1/>
     <YTVideo/>
+    <Token/>
     <PlatForm/> 
     <PSWAP/>
     <Comparision/>
