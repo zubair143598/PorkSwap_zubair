@@ -10,22 +10,23 @@ const Token = () => {
       </div>
       <div className="row ">
             <div className="col-md-3 mb-3"></div>
-            <div className="col-md-1 mt-5">
+            <div className="col-md-1 mt-5 text-md-center text-start">
                 <h1 className="fw-bolder">10%</h1>
                 <p className="fs-5 fw-bolder ">Liquidity</p>
             </div>
             <div className="col-md-1"></div>
-            <div className="col-md-2 ">
+            <div className="col-md-2  text-md-center text-start">
                 <h1 className="fw-bolder">50%</h1>
                 <p className="fs-5 fw-bolder ">Liquidity reward (locked)</p>
             </div>
 
-            <div className="col-md-2 mt-5">
+            <div className="col-md-2 text-md-center text-start mt-5">
             <h1 className="fw-bolder">10%</h1>
           <p className="fs-5 fw-bolder ">Team - locked</p>
          </div>
             <div className="col-md-3"></div>
-            <div className="row">
+    </div>
+            <div className="row back ">
             <div className="col-md-2"></div>
                 <div className="col-md-2 ">
                 <h1 className="fw-bolder">10%</h1>
@@ -38,7 +39,6 @@ const Token = () => {
             </div>
             <div className="col-md-2"></div>
             </div>
-    </div>
         
       
     </div>

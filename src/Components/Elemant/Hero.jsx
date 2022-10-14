@@ -1,8 +1,9 @@
 import React from "react";
-
+import Particle from "./Particle";
 const Hero = () => {
   return (
     <>
+    <Particle/>
       <div className="container-fluid hero">
         <div className="container">
           <div className="row">
@@ -31,7 +32,7 @@ const Hero = () => {
             </div>
             <div className="col-md-6 col-12">
               <img
-                className="img-fluid image"
+                className="img-fluid d-none d-md-block image"
                 src="./Assists/porkswap-pink.png"
                 alt=""
               />
