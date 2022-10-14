@@ -17,6 +17,8 @@ const Home = () => {
   return (
     <>
     <Hero/>
+    <div className='noParticle'>
+
     <Cards1/>
     <YTVideo/>
     <Token/>
@@ -27,6 +29,7 @@ const Home = () => {
     <FAQs/>
     {/* <TokenPrac /> */}
     {/* <FaqsPrac/> */}
+    </div>
     </>
   )
 }

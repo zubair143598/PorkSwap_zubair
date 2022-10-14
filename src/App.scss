@@ -258,8 +258,13 @@ body
   padding-top: 60px;
 }
 //Faqs end
-
-
+//noParticle
+.noParticle
+{
+  position: relative;
+  z-index: 5;
+}
+//
 
 //footer
 .footer

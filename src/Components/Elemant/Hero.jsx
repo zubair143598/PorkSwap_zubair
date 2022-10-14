@@ -3,7 +3,7 @@ import Particle from "./Particle";
 const Hero = () => {
   return (
     <>
-    {/* <Particle/> */}
+    <Particle/>
       <div className="container-fluid hero">
         <div className="container">
           <div className="row">
