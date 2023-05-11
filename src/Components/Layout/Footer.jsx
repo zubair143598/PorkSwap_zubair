@@ -4,6 +4,7 @@ import {IoLogoTwitter} from "react-icons/io"
 import {FaFacebookF} from "react-icons/fa"
 import {ImYoutube2} from "react-icons/im"
 import {BsTelegram} from "react-icons/bs"
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -21,9 +22,9 @@ const Footer = () => {
             <FaFacebookF className='icon m-2' size={40}/>
             <ImYoutube2 className='icon m-2' size={40}/>
             <BsTelegram className='icon m-2' size={40}/>
-            <a className='email' href="">
+            <Link className='email' to="">
               <p className='fs-5'>exchange@porkswap.finance</p>
-            </a>
+            </Link>
           </div>
         </div>
         <hr className='hr'/>
